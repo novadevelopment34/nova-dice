@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>S1 Dice </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="dice-container" style="display: none;">
+        <div id="click-area" onclick="requestRoll()">
+            <span class="hint-text">ZAR AT</span>
+        </div>
+
+        <div class="scene">
+            <div class="cube" id="cube">
+                <div class="cube__face cube__face--1">
+                    <span class="dot"></span>
+                </div>
+                
+                <div class="cube__face cube__face--2">
+                    <span class="dot"></span><span class="dot"></span>
+                </div>
+                
+                <div class="cube__face cube__face--3">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                
+                <div class="cube__face cube__face--4">
+                    <span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span><span class="dot"></span>
+                </div>
+                
+                <div class="cube__face cube__face--5">
+                    <span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                
+                <div class="cube__face cube__face--6">
+                    <span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span><span class="dot"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
